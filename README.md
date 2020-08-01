@@ -226,7 +226,7 @@ docker build
 - When the build starts the build context gets saved to a tarball.
 - The tarball is then transferred to the daemon.
 
-## Chain Run Command
+### Chain Run Command
 
 - Each run command executes on the top writeable layer and then commits the change.
 - The new image is then used for the next step in the Dockerfile.
